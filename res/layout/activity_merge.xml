@@ -1,0 +1,290 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/item_detail_container"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+android:background="@drawable/background"
+    android:alpha="80000">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#fff"
+        android:alpha="0.75"
+        android:text=" Provide the Input to Array: "
+        android:textColor="#f00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/random"
+        android:layout_width="147dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="#70ff0000"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="Fill Random and Sort"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/randomstring"
+        android:layout_width="match_parent"        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:alpha="0.65"
+        android:background="#f00"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/UIstring"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:alpha="0.72"
+        android:background="#fff"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="(enter elements)"
+        android:inputType="textNoSuggestions"
+        android:textAlignment="center"
+        android:textColor="#f00"
+        android:textColorHint="#f00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+      <!--
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:inputType="numberDecimal|numberSigned"
+          android:textColor="#fff"
+          android:textSize="20dp"
+          android:ems="10"
+          android:gravity="center_horizontal"
+          android:id="@+id/input1"
+          android:hint="A[0]"
+          android:textColorHint="#fff"/>
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="numberDecimal|numberSigned"
+          android:textColor="#fff"
+          android:textSize="20dp"
+          android:ems="10"
+          android:gravity="center_horizontal"
+          android:id="@+id/input2"
+          android:hint="A[1]"
+          android:textColorHint="#fff"/>
+
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:hint="A[2]"
+                android:inputType="numberDecimal|numberSigned"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/input4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:ems="10"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:hint="A[3]"
+                android:inputType="numberDecimal|numberSigned"
+                android:textColorHint="#fff" />
+
+            <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="numberDecimal|numberSigned"
+                android:textColor="#fff"
+          android:ems="10"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+          android:id="@+id/input5"
+          android:hint="A[4]"
+          android:textColorHint="#fff"/>
+
+
+            <EditText
+                android:id="@+id/input6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:ems="10"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:hint="A[5]"
+                android:inputType="numberDecimal|numberSigned"
+                android:textColorHint="#fff" />
+
+            <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="numberDecimal|numberSigned"
+              android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+              android:id="@+id/input7"
+              android:hint="A[6]"
+              android:textColorHint="#fff"/>
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="numberDecimal|numberSigned"
+              android:ems="10"
+              android:textSize="20dp"
+              android:textColor="#fff"
+              android:gravity="center_horizontal"
+              android:id="@+id/input8"
+              android:hint="A[7]"
+              android:textColorHint="#fff"/>
+
+            <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="numberDecimal|numberSigned"
+              android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+              android:id="@+id/input9"
+              android:hint="A[8]"
+              android:textColorHint="#fff"/>
+
+
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="numberDecimal|numberSigned"
+              android:ems="10"
+              android:textSize="20dp"
+              android:textColor="#fff"
+              android:gravity="center_horizontal"
+              android:id="@+id/input10"
+              android:hint="A[9]"
+              android:textColorHint="#fff"/>
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="numberDecimal|numberSigned"
+              android:gravity="center_horizontal"
+              android:ems="10"
+              android:textColor="#fff"
+              android:textSize="20dp"
+              android:id="@+id/input11"
+              android:hint="A[10]"
+              android:textColorHint="#fff"/>
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="numberDecimal|numberSigned"
+              android:ems="10"
+              android:textSize="20dp"
+              android:textColor="#fff"
+              android:gravity="center_horizontal"
+              android:id="@+id/input12"
+              android:hint="A[11]"
+              android:textColorHint="#fff"
+              />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="10"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/input13"
+                android:hint="A[12]"
+                android:textColorHint="#fff"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:id="@+id/input14"
+                android:hint="A[13]"
+                android:textColorHint="#fff"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:ems="10"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/input15"
+                android:hint="A[14]"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                />
+             -->
+
+      <!-- SORT id is Calculate here-->
+      <Button
+          android:id="@+id/calculate"
+          android:layout_width="156dp"
+
+
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:background="#70ff0000"
+          android:backgroundTint="@android:color/holo_green_dark"
+          android:text="Sort"
+          android:layout_marginTop="50dp"
+          android:textColor="#fff"
+          android:textSize="20sp"
+          android:textStyle="bold" />
+
+
+
+
+
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tv_result"
+        android:layout_centerInParent="true" />
+    -->
+  </LinearLayout>
+</ScrollView>

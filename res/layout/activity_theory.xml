@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/bt_merge1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:background="#70ff0000"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Merge Sort"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_quick1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#70ff0000"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Quick Sort"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/bt_heap1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#70ff0000"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Heap Sort "
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_select1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#70ff0000"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Selection Sort"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/bt_bubble1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#70ff0000"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Bubble Sort"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+

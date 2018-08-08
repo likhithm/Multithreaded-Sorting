@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MultiThreadedApp </string>
+    <string name="title_activity_welcome">MultiThreaded Sorting App</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+    <string name="action_settings">About us</string>
+
+    <string name="slide_1_title">Multithreaded Sorting</string>
+    <string name="slide_1_desc">Sorting made Easier and Efficient </string>
+
+    <string name="slide_2_title">\n     O(nlogn)</string>
+    <string name="slide_2_desc">Sorts Integers at a Time Complexity of Big-oh(nlogn) using Merge Sort</string>
+
+    <string name="slide_3_title">Coming Soon!!</string>
+    <string name="slide_3_desc">Sorting using Quick Sort, Heap Sort, Stack tracing of Algorithms and Many more!!</string>
+
+    <string name="slide_4_title">\nLets Get Started </string>
+    <string name="slide_4_desc">\n</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="mergetheory">"Time Complexity: Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.\n
+                            T(n) = 2T(n/2) + Theta(n)\n\nAuxiliary Space: O(n)\n\nAlgorithmic Paradigm: Divide and Conquer\n\nSorting In Place: No in a typical implementation\n\nStable: Yes\n\n"</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="imgtitle">Merge Sorting</string>
+</resources>

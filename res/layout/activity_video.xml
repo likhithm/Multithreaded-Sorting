@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="#000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnonce"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Once"
+            android:background="#fff"
+            android:backgroundTint="#f50"
+             />
+
+
+        <Button
+            android:id="@+id/btnstop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:backgroundTint="#f30"
+            android:text="Stop" />
+
+        <Button
+            android:id="@+id/btnplay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:backgroundTint="#f50"
+            android:text="play" />
+
+        <Button
+            android:id="@+id/btnconti"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:backgroundTint="#f30"
+            android:text="Repeat"
+             />
+
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:id="@+id/vv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="95dp" />
+    <ProgressBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/progrss"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+</LinearLayout>
